@@ -1,0 +1,23 @@
+@import "vars";
+html,
+body {
+    height: 100%;
+}
+
+body {
+    color: $def;
+
+    font-size: 15px;
+    line-height: 22px;
+    display: flex;
+    flex-flow: column;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.inner{
+    max-width: 1920px;
+    margin: 0 auto;
+}

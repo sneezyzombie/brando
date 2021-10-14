@@ -1,0 +1,25 @@
+$hov:#138434;
+$act:#106027;
+$def:#2c2c2c;
+$btn:#319D50;
+
+%txt{
+    @extend %geometria;
+    font-size: 14px;
+    line-height: 24px;
+    color: $def;
+}
+%bld {
+    @extend %geometria-bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: $def;
+}
+%geometria{
+    font-family: "geometria", sans-serif;
+    font-weight: 400;
+}
+%geometria-bold{
+    font-family: "geometria-bold", sans-serif;
+    font-weight: 700;
+}

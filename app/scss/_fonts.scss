@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "geometria";
+    src: local("geometria");
+    src: url("../fonts/geometria.woff2") format("woff2");
+    src: url("../fonts/geometria.woff") format("woff");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: "geometria-bold";
+    src: local("geometria-bold");
+    src: url("../fonts/geometria-bold.woff2") format("woff2");
+    src: url("../fonts/geometria-bold.woff") format("woff");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
