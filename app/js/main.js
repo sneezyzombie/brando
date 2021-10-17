@@ -8,4 +8,18 @@ $(function () {
     $('.menu__spnsors-slider').slick({
         slidesToShow: 6,
     });
+    $('.new-collection__slider').slick({
+        arrows: false,
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        fade:true,
+    });
+    $('.blockquotes__slider').slick({
+        arrows: false,
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        fade: true,
+    });
 });
